@@ -1,7 +1,7 @@
 "use strict";
 
-import * as domElement from "./modules/dom-elements.js";
-import { encrypt, decrypt } from "./modules/cryptography.js";
+import * as domElement from "./js/modules/dom-elements.js";
+import { encrypt, decrypt } from "./js/modules/cryptography.js";
 
 // Function that executes the cryptography functions
 function cryptographyExecutor(cryptographyFunction) {
