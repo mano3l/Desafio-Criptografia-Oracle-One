@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="svgs/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Desafio Criptografia</title>
+  </head>
+  <body>
+    <main>
+      <div class="app">
+        <div class="logo-area">
+          <img src="/svgs/logo.svg" alt="Logo Alura" />
+        </div>
+        <div class="input-area">
+          <div class="text-area">
+            <textarea
+              name="criptography-text"
+              id="criptography-text"
+              cols="30"
+              rows="10"
+              placeholder="Digite seu texto..."
+            ></textarea>
+            <div class="information-div">
+              <img
+                src="/svgs/informationIcon.svg"
+                alt="Icone de informação"
+                class="icon"
+              />
+              <span class="information-text"
+                >Apenas letras minúsculas e sem acento.</span
+              >
+            </div>
+          </div>
+          <div class="input-area-btns">
+            <button type="button" class="btn" id="encrypt-btn">
+              Criptografar
+            </button>
+            <button type="button" class="btn secondary-btn" id="decrypt-btn">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+
+        <div class="output-area">
+          <div class="message-not-found-screen">
+            <img
+              src="/svgs/outputAreaFigure1.svg"
+              alt="Ilustração de figura humana observando um cristal através de uma lupa"
+            />
+            <h5>Nenhuma mensagem encontrada</h5>
+            <p>
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+          <p class="message-found-screen" style="display: none">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            earum ullam eligendi, velit recusandae qui dolorum quidem sapiente
+            vitae veniam fugiat atque! Debitis autem nostrum maiores consequatur
+            amet ab est! Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Ullam beatae assumenda reprehenderit, quod eveniet, distinctio
+            sint deserunt hic voluptatem dicta eos aliquid, ratione porro
+            maiores! Excepturi molestiae ut esse aspernatur. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Ipsa in libero magni enim
+            perspiciatis? Harum, quos culpa? Eligendi nulla, laborum sit qui
+            nostrum, temporibus provident impedit assumenda id, consectetur in.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, ullam quam atque distinctio accusamus sint
+            necessitatibus a totam molestias est consequatur nobis dolor numquam
+            deleniti repudiandae blanditiis eum labore! Laborum? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Rerum vitae, saepe
+            incidunt, cumque inventore atque necessitatibus dolores veniam sunt
+            error repellat nobis dolore quidem minima magnam sed aliquam tempora
+            ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit velit magni magnam? Unde mollitia voluptas sit
+            consequatur, aliquam quidem repellendus asperiores dolores, quasi
+            qui, explicabo nulla doloremque numquam reprehenderit dolorum!
+          </p>
+          <button
+            type="button"
+            class="btn secondary-btn copy-btn"
+            id="copy-btn"
+          >
+            Copiar
+          </button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
